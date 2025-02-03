@@ -2,7 +2,7 @@ import os
 
 import allure
 from selene import browser, have, be
-from selene.support.shared.jquery_style import s
+from selene.api import s
 
 
 def test_registration_form(setup_browser):
